@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function AngiesItem(props) {
   return (
-    <div className={cn("border-2 rounded p-4 relative")}>
+    <div className={cn("border-2 rounded-lg p-4 relative w-9/12")}>
       <div className={cn("flex justify-center items-center")}>
         <img
           className={cn("w-28 h-28")}

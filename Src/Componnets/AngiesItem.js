@@ -38,7 +38,7 @@ function AngiesItem(props) {
       {props.isSelected ? (
         <p
           className={cn(
-            "text-white bg-green-400 w-3/12 rounded-full text-center absolute top-0 left-0"
+            "text-white bg-green-400 w-3/12 rounded-r-lg rounded-l-lg text-center absolute top-0 left-0"
           )}
         >
           {props.topButton}

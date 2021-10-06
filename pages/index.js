@@ -40,7 +40,7 @@ export default function Home(props) {
           items={[
             {
               imageUrl:
-                "https://cdn.pixabay.com/photo/2016/11/14/04/25/umbrella-1822586__340.jpg",
+                "https://cdn.pixabay.com/photo/2021/09/20/21/32/lake-6641880__340.jpg",
               smallTitle: "Snack",
               title: "Angie's Boomchickapop Sweet & Salty",
               rating: "*****",
@@ -60,10 +60,9 @@ export default function Home(props) {
           items={[
             {
               imageUrl:
-                "https://cdn.pixabay.com/photo/2016/06/30/12/29/carnation-1488929__340.jpg",
+                "https://cdn.pixabay.com/photo/2021/09/15/21/29/lake-6627781__340.jpg",
               title: "American Lager",
               description: "Real Good Boy",
-
               text: "For far away, behind the word mountains, far from the countries",
               button: "purchase today",
             },

@@ -8,8 +8,6 @@ const oprganicProduct = [
     imageUrl:
       "https://cdn.pixabay.com/photo/2021/09/29/13/17/redwood-national-park-6667452__340.jpg",
     title: "Organic Frozen Triple Berry Blend",
-    rating: "******",
-    naming: "(4.0)",
     newPrice: "$32.85",
     oldPrice: "$33.8",
   },

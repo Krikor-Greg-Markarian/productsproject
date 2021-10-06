@@ -13,7 +13,7 @@ const bunchOfTags = [
 
 function AmericanLager(props) {
   return (
-    <div>
+    <div className={cn("border-2 p-6")}>
       <div className={cn("flex justify-center items-center")}>
         <img
           className={cn("w-20 h-20 rounded-full")}

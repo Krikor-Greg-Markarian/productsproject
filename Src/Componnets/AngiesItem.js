@@ -1,6 +1,7 @@
 import React from "react";
 import cn from "classnames";
 import Rating2 from "./Rating2";
+import Button from "./Button";
 
 function AngiesItem(props) {
   return (
@@ -22,11 +23,12 @@ function AngiesItem(props) {
             <p className={cn("text-green-800 font-bold pt-2")}>{props.price}</p>
           </div>
           <div className="flex-shrink pl-5 pt-1">
-            <button
-              className={cn("bg-green-400 rounded-lg text-green-700 px-4 py-1")}
-            >
-              {props.button}
-            </button>
+            <Button
+              className={cn(
+                "bg-green-200 p-2 rounded text-center text-green-800 font-bold"
+              )}
+              text={"Add"}
+            />
           </div>
         </div>
         <p className={cn("text-gray-500 line-through font-bold")}>

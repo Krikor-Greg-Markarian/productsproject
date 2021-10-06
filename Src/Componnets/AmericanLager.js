@@ -1,6 +1,7 @@
 import React from "react";
 import cn from "classnames";
 import Simcoe from "./Simcoe";
+import Button from "./Button";
 
 const bunchOfTags = [
   {
@@ -31,9 +32,12 @@ function AmericanLager(props) {
       </div>
       <p className={cn("text-gray-600 text-center pt-2")}>{props.text}</p>
       <div className={cn("flex justify-center items-center pt-2")}>
-        <button className={cn("bg-red-500 p-3 text-white")}>
-          {props.button}
-        </button>
+        <Button
+          className={cn(
+            "bg-red-400 py-2 w-7/12 rounded text-center text-white"
+          )}
+          text={"purchase now"}
+        />
       </div>
     </div>
   );

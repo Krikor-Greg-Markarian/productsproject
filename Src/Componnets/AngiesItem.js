@@ -12,7 +12,7 @@ function AngiesItem(props) {
     <div className={cn("border-2 rounded-lg p-4 relative w-9/12")}>
       <div className={cn("flex justify-center items-center")}>
         <img
-          className={cn("w-28 h-28")}
+          className={cn("w-28 h-28 rounded-lg pb-1")}
           src={props.imageUrl}
           alt="girlwithumbrella"
         />

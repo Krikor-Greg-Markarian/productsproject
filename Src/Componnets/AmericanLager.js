@@ -22,10 +22,10 @@ function AmericanLager(props) {
         />
       </div>
       <p className={cn("text-red-500 text-center pt-2")}>{props.title}</p>
-      <p className={cn("font-bold text-2xl text-center pt-2")}>
+      <p className={cn("font-bold text-2xl text-center pt-2 pb-2")}>
         {props.description}
       </p>
-      <div className={cn("flex justify-center items-center")}>
+      <div className={cn("flex justify-center items-center pb-1")}>
         {bunchOfTags.map((item, idx) => (
           <Simcoe tagsa={item.tagsa} tagsb={item.tagsb} tagsc={item.tagsc} />
         ))}

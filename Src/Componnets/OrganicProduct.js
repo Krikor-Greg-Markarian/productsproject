@@ -1,6 +1,5 @@
 import React from "react";
 import cn from "classnames";
-import Rating from "./Rating";
 import Rating2 from "./Rating2";
 
 function OrganicProduct(props) {

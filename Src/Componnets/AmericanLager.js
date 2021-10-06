@@ -13,7 +13,7 @@ const bunchOfTags = [
 
 function AmericanLager(props) {
   return (
-    <div className={cn("w-3/12")}>
+    <div>
       <div className={cn("flex justify-center items-center")}>
         <img
           className={cn("w-20 h-20 rounded-full")}
@@ -30,7 +30,9 @@ function AmericanLager(props) {
           <Simcoe tagsa={item.tagsa} tagsb={item.tagsb} tagsc={item.tagsc} />
         ))}
       </div>
-      <p className={cn("text-gray-600 text-center pt-2")}>{props.text}</p>
+      <p className={cn("text-gray-600 text-center pt-2 text-sm")}>
+        {props.text}
+      </p>
       <div className={cn("flex justify-center items-center pt-2")}>
         <Button
           className={cn(

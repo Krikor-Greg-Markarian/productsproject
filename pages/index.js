@@ -21,17 +21,19 @@ const oprganicProduct = [
 export default function Home(props) {
   return (
     <div>
-      {oprganicProduct.map((item, idx) => (
-        <OrganicProduct
-          key={idx}
-          imageUrl={item.imageUrl}
-          title={item.title}
-          rating={item.rating}
-          naming={item.naming}
-          newPrice={item.newPrice}
-          oldPrice={item.oldPrice}
-        />
-      ))}
+      <section>
+        {oprganicProduct.map((item, idx) => (
+          <OrganicProduct
+            key={idx}
+            imageUrl={item.imageUrl}
+            title={item.title}
+            rating={item.rating}
+            naming={item.naming}
+            newPrice={item.newPrice}
+            oldPrice={item.oldPrice}
+          />
+        ))}
+      </section>
 
       <section className={cn("pt-5")}>
         <AngiesResult
@@ -47,6 +49,7 @@ export default function Home(props) {
               price: "$48.85",
               button: "Add",
               oldPrice: "$52.8",
+              topButton: "New",
             },
           ]}
         />

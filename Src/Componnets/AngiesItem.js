@@ -16,7 +16,10 @@ function AngiesItem(props) {
 
       <p className={cn("text-gray-500 text-xs")}>{props.smallTitle}</p>
       <p className={cn("font-bold text-2xl pt-2")}>{props.title}</p>
-      <Rating2 />
+      <div className={cn("pt-1")}>
+        <Rating2 />
+      </div>
+
       <p className={cn("text-gray-500 text-sm pt-1")}>{props.gram}</p>
       <div class="flex">
         <div className="flex-shrink ">

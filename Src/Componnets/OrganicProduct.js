@@ -16,7 +16,7 @@ function OrganicProduct(props) {
         <p className={cn("mb-0 font-bold text-2xl pl-2")}>{props.title}</p>
 
         <div className="flex-shrink pl-2">
-          <div className="flex-shrink">
+          <div className="flex-shrink pt-1">
             <Rating2 />
           </div>
         </div>

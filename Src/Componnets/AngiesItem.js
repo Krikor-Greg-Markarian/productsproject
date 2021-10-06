@@ -4,6 +4,10 @@ import Rating2 from "./Rating2";
 import Button from "./Button";
 
 function AngiesItem(props) {
+  const styleClasses = {
+    TopCuttonBackgourndColor: props.TopCuttonBackgourndColor ?? "bg-white",
+  };
+
   return (
     <div className={cn("border-2 rounded-lg p-4 relative w-9/12")}>
       <div className={cn("flex justify-center items-center")}>
@@ -41,7 +45,8 @@ function AngiesItem(props) {
       {props.isSelected ? (
         <p
           className={cn(
-            "text-white bg-green-400 w-3/12 rounded-r-lg rounded-l-lg text-center absolute top-0 left-0"
+            "text-white w-3/12 rounded-r-lg rounded-l-lg text-center absolute top-0 left-0",
+            styleClasses.TopCuttonBackgourndColor
           )}
         >
           {props.topButton}

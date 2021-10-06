@@ -26,6 +26,34 @@ const product = [
     button: "Add",
     oldPrice: "$52.8",
     topButton: "New",
+    isSelected: true,
+    TopCuttonBackgourndColor: "bg-green-400",
+  },
+  {
+    imageUrl:
+      "https://cdn.pixabay.com/photo/2021/07/16/15/29/hellebore-6471156__340.jpg",
+    smallTitle: "Vegtables",
+    title: "Foster Farms Takeout Crispy Classic",
+    gram: "500g",
+    price: "$17.85",
+    button: "Add",
+    oldPrice: "$19.85",
+    topButton: "Test",
+    isSelected: false,
+    // TopCuttonBackgourndColor: "bg-red-800",
+  },
+  {
+    imageUrl:
+      "https://cdn.pixabay.com/photo/2021/08/30/01/41/koyasan-6584637__340.jpg",
+    smallTitle: "Pet Foods",
+    title: "Blue Diamond Almonds Lightly",
+    gram: "500g",
+    price: "$23.85",
+    button: "Add",
+    oldPrice: "$25.8",
+    topButton: "-14%",
+    isSelected: true,
+    TopCuttonBackgourndColor: "bg-red-400",
   },
 ];
 
@@ -72,7 +100,8 @@ export default function Home(props) {
                 button={item.button}
                 oldPrice={item.oldPrice}
                 topButton={item.topButton}
-                isSelected={true}
+                isSelected={item.isSelected}
+                TopCuttonBackgourndColor={item.TopCuttonBackgourndColor}
               />
             </div>
           ))}

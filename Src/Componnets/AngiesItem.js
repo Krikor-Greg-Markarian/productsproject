@@ -25,7 +25,7 @@ function AngiesItem(props) {
           <div className="flex-shrink pl-5 pt-1">
             <Button
               className={cn(
-                "bg-green-200 p-2 rounded text-center text-green-800 font-bold"
+                "bg-green-200 px-7 py-1 rounded text-center text-green-800 font-bold"
               )}
               text={"Add"}
             />
